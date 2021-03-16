@@ -72,7 +72,7 @@ for private study. </blockquote></p>
 <li><a href="slides/E01-traffic.pdf">Parallel Traffic Modelling</a>
 <li><a href="slides/road-solution.pdf">Parallel Traffic Modelling: solution</a>
 <li><a href="slides/L02-intro.pdf">MPI Programs</a>
-<li><a href="slides/L03-archer2-cirrus-mpi.pdf">MPI on Cirrus and ARCHER</a>
+<li><a href="slides/L03-archer2-cirrus-mpi.pdf">MPI on Cirrus and ARCHER2</a>
 <li><a href="slides/L04-pt2pt.pdf">Point-to-Point Communication</a>
 <li><a href="slides/L06-modetagcomm.pdf">Communicators, Tags and Modes</a>
 </ul>
