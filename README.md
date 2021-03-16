@@ -92,8 +92,7 @@ If you want local access to MPI, one solution is to install a Linux
 virtual machine (e.g. Ubuntu) and follow the Linux installation
 instructions above.
 
-I know that some users have been able to install MPI compilers and libraries natively on Windows using the [Intel® oneAPI HPC Toolkit]
-(https://software.intel.com/content/www/us/en/develop/tools/oneapi/hpc-toolkit.html)
+I know that some users have been able to install MPI compilers and libraries natively on Windows using the [Intel® oneAPI HPC Toolkit](https://software.intel.com/content/www/us/en/develop/tools/oneapi/hpc-toolkit.html)
 
 <h3>Lecture Slides</h3>
 
