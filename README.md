@@ -109,7 +109,7 @@ for private study. </blockquote></p>
 
 <ul>
 <li><a href="exercises/road.pdf">Traffic modelling exercise sheet</a></li>
-<li><a href="exercises/Cirrus-MPI-cribsheet.pdf">Instructions for logging on, compiling and running on Cirrus</a></li>
+<li><a href="exercises/ARCHER2-MPI-cribsheet.pdf">Instructions for logging on, compiling and running on ARCHER2</a></li>
 <li><a href="exercises/MPP-templates.tar">Useful files and pieces of code: MPP-templates.tar</a></li>
 <li><a href="exercises/MPP-exercises.pdf">MPI exercise sheet</a></li>
 <li><a href="exercises/MPP-pi.tar">Detailed solutions to pi calculation example</a>
