@@ -100,7 +100,7 @@ I know that some users have been able to install MPI compilers and libraries nat
 &copy; EPCC, The University of Edinburgh, and is only made available
 for private study. </blockquote></p>
 
-<h4>Wednesday</h4>
+<h4>Day 1</h4>
 
 <ul>
 <li><a href="slides/L00-ARCHER2-PTC-Intro.pdf">ARCHER2 and the training programme</a>
@@ -114,7 +114,7 @@ for private study. </blockquote></p>
 <li><a href="slides/L06-modetagcomm.pdf">Communicators, Tags and Modes</a>
 </ul>
 
-<h4>Thursday</h4>
+<h4>Day 2</h4>
 
 <ul>
 
@@ -125,17 +125,9 @@ for private study. </blockquote></p>
 
 </ul>
 
-<h4>Friday</h4>
+<h4>Day 3</h4>
 
 <ul>
-<li>Screenshots of the MPI Quiz showing correct answers and explanations: 
-<a href="exercises/MPP-quiz-q01-03.png">q01-03</a>, 
-<a href="exercises/MPP-quiz-q04-06.png">q04-06</a>, 
-<a href="exercises/MPP-quiz-q07-09.png">q07-09</a>, 
-<a href="exercises/MPP-quiz-q10-11.png">q10-11</a>, 
-<a href="exercises/MPP-quiz-q12.png">q12</a>, 
-<a href="exercises/MPP-quiz-q13.png">q13</a>, 
-<a href="exercises/MPP-quiz-q14.png">q14</a>
 <li><a href="slides/L11-casestudy.pdf">Case Study</a>
 <li><a href="slides/L12-tipsandtricks.pdf">MPI Tips and Tricks (includes dynamic memory allocation in C and array syntax issues in Fortran)</a>
 <li><a href="slides/L13-scaling.pdf">MPI Scaling (not delivered as part of this course but included for reference)</a>
@@ -154,7 +146,6 @@ for private study. </blockquote></p>
 
 <ul>
 <li><a href="exercises/road.pdf">Traffic modelling exercise sheet</a></li>
-<li><a href="exercises/NEXTGenIO-MPI-cribsheet.pdf">Instructions for logging on, compiling and running on NEXTGenIO</a></li>
 <li><a href="exercises/Cirrus-MPI-cribsheet.pdf">Instructions for logging on, compiling and running on Cirrus</a></li>
 <li><a href="exercises/MPP-templates.tar">Useful files and pieces of code: MPP-templates.tar</a></li>
 <li><a href="exercises/hello.job">Example SLURM script for NEXTGenIO - all instructions included as comments</a></li>
