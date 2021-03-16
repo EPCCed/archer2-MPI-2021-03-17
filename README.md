@@ -2,10 +2,9 @@
 
 <br /><br /><br /><br /><br />
 
+# ARCHER 2 MPI course (March 2021)
 
-# ARCHER 2 MPI course (May 2020)
-
-The world’s largest supercomputers are used almost exclusively to run
+The world's largest supercomputers are used almost exclusively to run
 applications which are parallelised using Message Passing. The course
 covers all the basic knowledge required to write parallel programs
 using this programming model, and is directly applicable to almost
@@ -27,7 +26,7 @@ datatypes, virtual topologies, collective communication and general
 design issues.
 
 The course is normally delivered in an intensive three-day format
-using EPCC’s dedicated training facilities. It is taught using a
+using EPCC's dedicated training facilities. It is taught using a
 variety of methods including formal lectures, practical exercises,
 programming examples and informal tutorial discussions. This enables
 lecture material to be supported by the tutored practical sessions in
@@ -50,17 +49,18 @@ regular-grid problems.
 
 Pre-requisite Programming Languages:
 
-Fortran, C or C++. It is not possible to do the exercises in Python or Java.
+C, C++ or Fortran. The course does not cover the details of how to use
+MPI from Python.
 
 <h2>Message Passing Programming with MPI</h2>
 
-<p><strong>Dates:</strong>14th, 15th and 22nd May 2020
+<p><strong>Dates:</strong>17th, 22nd and 24th March 2021
 <p><strong>Location:</strong>Online</p>
 
 <h3>Installing MPI locally</h3>
 
-Note that all registered users will be given access to the Cirrus
-system. Although having MPI installed on your laptop will be
+Note that all registered users will be given access to the ARCHER2
+system. Although having MPI installed on your laptop may be
 convenient, do not worry if these instructions do not work for you.
 
 <h4>Linux</h4>
@@ -68,9 +68,9 @@ convenient, do not worry if these instructions do not work for you.
 Linux users need to install the GNU compilers and a couple of MPI packages,
 e.g. for Ubuntu:
 
-    user@ubuntu$ sudo apt-get install gcc
-    user@ubuntu$ sudo apt-get install openmpi-bin
-    user@ubuntu$ sudo apt-get install libopenmpi-dev
+    user@ubuntu$ sudo apt install gcc
+    user@ubuntu$ sudo apt install openmpi-bin
+    user@ubuntu$ sudo apt install libopenmpi-dev
 
 <h4>Mac</h4>
 
@@ -85,29 +85,18 @@ Now install OpenMPI:
 
 <h4>Windows</h4>
 
-We recommend that Windows users access the EPCC systems (e.g. Cirrus
-or NEXTGenIO) using
-[MobaXterm](https://www.archer2.ac.uk/training/training-software).
+We recommend that Windows users access ARCHER2 using
+[MobaXterm](https://docs.archer2.ac.uk/user-guide/connecting/#windows).
 
-However, that may not be possible at present due to the ongoing
-security issues affecting many supercomputers worldwide including
-systems at EPCC.
-
-One solution is to install a Linux virtual machine (e.g. Ubuntu) and
-follow the Linux installation instructions above.
+If you want local access to MPI, one solution is to install a Linux
+virtual machine (e.g. Ubuntu) and follow the Linux installation
+instructions above.
 
 I know that some users have been able to install MPI natively on
 Windows using the [Intel Parallel
 Studio](https://software.intel.com/content/www/us/en/develop/tools/parallel-studio-xe/choose-download.html)
 compilers and the [Intel MPI
 library](https://software.intel.com/content/www/us/en/develop/documentation/mpi-developer-guide-windows/top.html).
-
-<h3>Guest accounts on the NEXTGenIO system</h4>
-
-    ssh -XY ngguestXX@hydra-vpn.epcc.ed.ac.uk
-    ssh -XY nextgenio-login2
-
-Here are the [assignments of account names to users](exercises/accounts.txt)
 
 <h3>Lecture Slides</h3>
 
