@@ -57,43 +57,6 @@ MPI from Python.
 <p><strong>Dates:</strong>17th, 22nd and 24th March 2021
 <p><strong>Location:</strong>Online</p>
 
-<h3>Installing MPI locally</h3>
-
-Note that all registered users will be given access to the ARCHER2
-system. Although having MPI installed on your laptop may be
-convenient, do not worry if these instructions do not work for you.
-
-<h4>Linux</h4>
-
-Linux users need to install the GNU compilers and a couple of MPI packages,
-e.g. for Ubuntu:
-
-    user@ubuntu$ sudo apt install gcc
-    user@ubuntu$ sudo apt install openmpi-bin
-    user@ubuntu$ sudo apt install libopenmpi-dev
-
-<h4>Mac</h4>
-
-Mac users need to install compilers from the Xcode developer
-package. It is easiest to install MPI using the Homebrew package
-manager - here are [Instructions on how to install Xcode and
-Homebrew](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/).
-
-Now install OpenMPI:
-
-    user@mac$ brew install open-mpi
-
-<h4>Windows</h4>
-
-We recommend that Windows users access ARCHER2 using
-[MobaXterm](https://docs.archer2.ac.uk/user-guide/connecting/#windows).
-
-If you want local access to MPI, one solution is to install a Linux
-virtual machine (e.g. Ubuntu) and follow the Linux installation
-instructions above.
-
-I know that some users have been able to install MPI compilers and libraries natively on Windows using the [Intel® oneAPI HPC Toolkit](https://software.intel.com/content/www/us/en/develop/tools/oneapi/hpc-toolkit.html)
-
 <h3>Lecture Slides</h3>
 
 <p><blockquote>Unless otherwise indicated all material is Copyright
@@ -159,3 +122,41 @@ for private study. </blockquote></p>
 <li><a href="exercises/MPP-arralloc.tar">Code for dynamic array allocation in C</a>
 <li><a href="exercises/MPP-traffic.tar">Serial and parallel solutions to the traffic model</a></li>
 </ul>
+
+<h3>Installing MPI locally</h3>
+
+Note that all registered users will be given access to the ARCHER2
+system. Although having MPI installed on your laptop may be
+convenient, do not worry if these instructions do not work for you.
+
+<h4>Linux</h4>
+
+Linux users need to install the GNU compilers and a couple of MPI packages,
+e.g. for Ubuntu:
+
+    user@ubuntu$ sudo apt install gcc
+    user@ubuntu$ sudo apt install openmpi-bin
+    user@ubuntu$ sudo apt install libopenmpi-dev
+
+<h4>Mac</h4>
+
+Mac users need to install compilers from the Xcode developer
+package. It is easiest to install MPI using the Homebrew package
+manager - here are [Instructions on how to install Xcode and
+Homebrew](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/).
+
+Now install OpenMPI:
+
+    user@mac$ brew install open-mpi
+
+<h4>Windows</h4>
+
+We recommend that Windows users access ARCHER2 using
+[MobaXterm](https://docs.archer2.ac.uk/user-guide/connecting/#windows).
+
+If you want local access to MPI, one solution is to install a Linux
+virtual machine (e.g. Ubuntu) and follow the Linux installation
+instructions above.
+
+I know that some users have been able to install MPI compilers and libraries natively on Windows using the [Intel® oneAPI HPC Toolkit](https://software.intel.com/content/www/us/en/develop/tools/oneapi/hpc-toolkit.html)
+
