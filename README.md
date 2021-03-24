@@ -57,6 +57,12 @@ MPI from Python.
 <p><strong>Dates:</strong>17th, 22nd and 24th March 2021
 <p><strong>Location:</strong>Online</p>
 
+<h3>Viewing Images on ARCHER2</h3>
+
+    ds
+    dsds
+
+
 <h3>Lecture Slides</h3>
 
 <p><blockquote>Unless otherwise indicated all material is Copyright
