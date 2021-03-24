@@ -107,7 +107,8 @@ for private study. </blockquote></p>
 <h4>Day 3</h4>
 
 <b>See the instructions above for "Viewing Images on ARCHER2" - the
-method described in the Case Study lecture does not currently work correctly.
+method described in the Case Study lecture does not currently work
+correctly.</b>
 
 <ul>
 <li><a href="https://b.socrative.com/login/student/">MPI Quiz: enter <b>HPCQUIZ</b> as the "Room Name"</a>
