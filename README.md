@@ -68,6 +68,11 @@ program from `XLoadImage`:
     user@archer2:~$ module load xli
     user@archer2:~$ xview -gamma 2 edge192x128.pgm
 
+To double the image size, type `>` in the window; typing `q` will quit.
+
+Note that the image may take some time to appear as exporting X11
+graphics over the network can be rather slow.
+
 <h3>Lecture Slides</h3>
 
 <p><blockquote>Unless otherwise indicated all material is Copyright
