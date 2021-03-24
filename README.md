@@ -59,8 +59,10 @@ MPI from Python.
 
 <h3>Viewing Images on ARCHER2</h3>
 
-    ds
-    dsds
+The instructions for viewing images, contained in the slides for the
+Case Study exercise on Day 3, will not work on ARCHER2 as the package
+I usually use is not available. To view any of the PGM files (input
+edge data or output reconstructed images) you can use the `xview` 
 
 
 <h3>Lecture Slides</h3>
