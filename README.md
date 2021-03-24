@@ -62,8 +62,11 @@ MPI from Python.
 The instructions for viewing images, contained in the slides for the
 Case Study exercise on Day 3, will not work on ARCHER2 as the package
 I usually use is not available. To view any of the PGM files (input
-edge data or output reconstructed images) you can use the `xview` 
+edge data or output reconstructed images) you can use the `xview`
+program from `XLoadImage`:
 
+    user@archer2:~$ module load xli
+    user@archer2:~$ xview -gamma 2 edge192x128.pgm
 
 <h3>Lecture Slides</h3>
 
